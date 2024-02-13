@@ -14,6 +14,24 @@
 </head>
 <body>
     <h1>Have a cup with Sridhar</h1>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="drinks.html">A Few Drinks</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="basic.html">basic</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="advance.html">advance</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
     <div class="container">
         <div class="row">
             <div class="col-sm-2">C</div>
@@ -33,7 +51,135 @@
         </div>
     </div>
 <p>The row with the drinks name breaks first because it did not have  a specific available space. But for letters it had a specific space is fixed.So when we minimize the window the drinks names breaks first.</p>
-
-
+<div class="container">
+  <img src="cocacola.png" alt="coke" width="25%" >
+  <img src="Huana.png" alt="hdrink" width="25%">
+  <img src="plumouth.png" alt="plymouth" width="30%">
+</div>
+<br>
+<br>
+<div class="container">
+  <img src="cocacola.png" class="img-thumbnail" alt="coke" width="25%">
+  <img src="Huana.png" class="img-thumbnail" alt="hdrink" width="25%">
+  <img src="plumouth.png" class="img-thumbnail" alt="plymouth" width="30%">
+</div>
+<table class="table">
+  <caption class="caption-top">Things</caption>
+  <thead>
+    <tr class="table-dark">
+      <th>Letter</th>
+      <th>Drink</th>
+      <th>Star Name</th>
+      <th>Fish</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="table-primary">
+      <td>C</td>
+      <td>Cocacola</td>
+      <td>Crux</td>
+      <td>Cat Fish</td>
+    </tr>
+    <tr class="table-light">
+      <td>H</td>
+      <td>Huana</td>
+      <td>Homam</td>
+      <td>Hag Fish</td>
+    </tr>
+    <tr class="table-secondary">
+      <td>E</td>
+      <td>Enamor</td>
+      <td>Elnath</td>
+      <td>Eel</td>
+    </tr>
+    <tr class="table-info">
+      <td>P</td>
+      <td>Plymouth</td>
+      <td>Pentis</td>
+      <td>Pacu</td>
+    </tr>
+    <tr  class="table-success">
+      <td>P</td>
+      <td>Prunier</td>
+      <td>Pelios</td>
+      <td>Pacific Salmon</td>
+    </tr>
+    <tr class="table-warning">
+      <td>A</td>
+      <td>Amaretto</td>
+      <td>Aquila</td>
+      <td>Arowana</td>
+    </tr>
+  </tbody>
+</table>
+<button type="button">C</button>
+<button type="button">H</button>
+<button type="button">E</button>
+<button type="button">P</button>
+<button type="button">P</button>
+<button type="button">A</button>
+<br>
+<br>
+<div class="btn-group">
+  <button type="button" class="btn btn-success">C</button>
+  <button type="button" class="btn btn-success">H</button>
+  <button type="button" class="btn btn-success">P</button>
+  <button type="button" class="btn btn-warning">E</button>
+  <button type="button" class="btn btn-warning">P</button>
+  <button type="button" class="btn btn-danger">A</button>
+  </div>
+  <br>
+  <br>
+  <div class="dropdown">
+    <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+      Dropdown button 
+    </a>
+  
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="basic.html">basic</a></li>
+      <li><a class="dropdown-item" href="advance.html">advance</a></li>
+    </ul>
+  </div>
+  <form>
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">Email address</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputPassword1" class="form-label">Drinks</label>
+      <input type="text" class="form-control" id="exampleInputPassword1">
+    </div>
+    <div class="mb-3 form-check">
+      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+      <label class="form-check-label" for="exampleCheck1">Signup for newsletter?</label>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+  <div class="card-group"> 
+  <div class="card" style="width: 18rem;">
+    <img src="cocacola.png" class="card-img-top" alt="coke">
+    <div class="card-body">
+      <h5 class="card-title">Drink Name</h5>
+      <p class="card-text">Refreshing and iconic, Coca-Cola is the timeless classic that needs no introduction. Served ice-cold in a chilled glass, every sip is a symphony of effervescence and flavor.</p>
+      <a href="drinks.html" class="btn btn-primary">Cocacola</a>
+    </div>
+  </div>
+  <div class="card" style="width: 18rem;">
+    <img src="plumouth.png" class="card-img-top" alt="plymouth">
+    <div class="card-body">
+      <h5 class="card-title">Drink Name</h5>
+      <p class="card-text">Crafted with precision and tradition, Plymouth Gin is a testament to the artistry of distillation. Hailing from the historic English port city of Plymouth, this iconic spirit boasts a heritage dating back to 1793.</p>
+      <a href="drinks.html" class="btn btn-primary">Plymouth</a>
+    </div>
+  </div>
+  <div class="card" style="width: 18rem;">
+    <img src="Huana.png" class="card-img-top" alt="hdrink">
+    <div class="card-body">
+      <h5 class="card-title">Drink Name</h5>
+      <p class="card-text">Huana is created from careful fermentation of Guanabana fruit, also known as Soursop, which is pollinated by the stingless bees of the Maya.</p>
+      <a href="drinks.html" class="btn btn-primary">Huana</a>
+    </div>
+  </div>
+</div>
 </body>
 </html>
